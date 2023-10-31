@@ -644,4 +644,110 @@ span{
 .card .card-content .btn-box a:hover{
     background: #ededed;
 }
+.contact .contactdir{
+    margin-top: 50px;
+    bottom: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #044370; /* Background color for the rectangle */
+    border: 2px solid #00abf0; /* Border style for the rectangle */
+    border-radius: 10px; /* Border radius for rounded corners */
+    padding: 20px; /* Padding around the icons and information */
+    width: 300px;
+    margin-right: 80px;
+}
 
+.contact .contactdir a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+    margin-right: 5px;
+}
+
+.contact .contactdirr{
+    margin-top: 50px;
+    bottom: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #044370; /* Background color for the rectangle */
+    border: 2px solid #00abf0; /* Border style for the rectangle */
+    border-radius: 10px; /* Border radius for rounded corners */
+    padding: 20px; /* Padding around the icons and information */
+    width: 300px;
+    margin-right: 80px;
+}
+
+.contact .contactdirr a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+    margin-right: 5px;
+}
+
+.contact .contactdirrr{
+    margin-top: 50px;
+    bottom: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #044370; /* Background color for the rectangle */
+    border: 2px solid #00abf0; /* Border style for the rectangle */
+    border-radius: 10px; /* Border radius for rounded corners */
+    padding: 20px; /* Padding around the icons and information */
+    width: 300px;
+}
+
+.contact .contactdirrr a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+    margin-right: 5px;
+}
+
+.cont{
+    display: inline-flex; 
+}
